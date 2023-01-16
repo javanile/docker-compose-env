@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  debian:
+    image: debian:bullseye-slim
+    env_file:
+      - .env.local
+
